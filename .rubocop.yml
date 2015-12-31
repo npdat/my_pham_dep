@@ -1,0 +1,20 @@
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'bin/*'
+    - 'test/test_helper.rb'
+    - 'db/schema.rb'
+    - 'config.ru'
+
+Style/Encoding:
+  Enabled: false
+
+Style/PerlBackrefs:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 20
