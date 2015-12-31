@@ -1,0 +1,13 @@
+machine:
+  ruby:
+    version: ruby-2.2.3
+
+test:
+  override:
+    - bundle exec rake
+
+deployment:
+  staging:
+    branch: master
+    commands:
+      - git push git@heroku.com:my-pham-dep.git $CIRCLE_SHA1:master
