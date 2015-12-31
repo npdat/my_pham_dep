@@ -256,3 +256,9 @@ Started GET "/" for 127.0.0.1 at 2015-12-31 09:51:52 +0700
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-31 10:43:00 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 1390ms (Views: 1366.7ms | ActiveRecord: 0.0ms)
