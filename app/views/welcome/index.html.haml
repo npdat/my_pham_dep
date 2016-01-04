@@ -1,3 +1,15 @@
-%h2 Hello World
-%p
-  The time is now: #{Time.now}
+.container
+  .row.cycle-slideshow{'data-cycle-fx'=> 'carousel', 'data-cycle-timeout'=>1000, 'data-cycle-carousel-visible'=>6, 'data-cycle-carousel-fluid'=>true,
+   'data-cycle-slides'=>"div"}
+    .span2
+      %img{src: "http://lorempixel.com/200/200/"}
+    .span2
+      %img{src: "http://lorempixel.com/200/200/"}
+    .span2
+      %img{src: "http://lorempixel.com/200/200/"}
+    .span2
+      %img{src: "http://lorempixel.com/200/200/"}
+    .span2
+      %img{src: "http://lorempixel.com/200/200/"}
+    .span2
+      %img{src: "http://lorempixel.com/200/200/"}

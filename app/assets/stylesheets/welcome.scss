@@ -1,3 +1,27 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+//.cycle-slideshow {
+//  //width: 500px;
+//}
+//
+//img {
+//  max-width: 100%;
+//  height: auto;
+//}
+
+body{background:#fff;}
+.container{overflow:hidden;padding:50px 0;}
+.cycle-slideshow img{width:auto;height:auto;}
+.cycle-slideshow .span2{float:none;}
+
+/*padding tricks
+nb-visible-item X gutter width
+*/
+@media (min-width: 1200px) {
+  .cycle-slideshow{padding-right:180px;}
+}
+@media (min-width: 768px) and (max-width: 1199px)  {
+  .cycle-slideshow{padding-right:120px;}
+}
+
+@media (max-width: 767px) {
+  .cycle-slideshow{padding-right:0px;}
+}
